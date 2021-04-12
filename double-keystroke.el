@@ -1,9 +1,9 @@
 ;;; double-keystroke.el --- bind the command to a double-keystroke.
 
 ;; Author: Eugene Markov <upirtf@gmail.com>
-;; URL: https://github.com/...
+;; URL: https://github.com/rtfupi/double-keystroke
 ;; Version: 0.1
-;; Keywords: 
+;; Keywords:
 
 ;; Package-Requires: ((emacs "24.3") (edmacro "2.01"))
 
