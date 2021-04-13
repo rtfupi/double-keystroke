@@ -80,7 +80,9 @@
 
 ;;; Code:
 
-(require 'cl)
+
+(eval-when-compile
+  (require 'cl-lib))
 (require 'edmacro)
 
 
@@ -322,7 +324,7 @@
             (indent-pp-sexp 1)))
         (princ "\n" b)
 
-        (setq inhibit-read-only)))))
+        (setq inhibit-read-only nil)))))
 
 
 
